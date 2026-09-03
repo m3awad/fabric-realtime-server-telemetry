@@ -1,5 +1,4 @@
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/80ba5772-a365-4617-91d4-4405c8ac9251" /># Microsoft Fabric Real-Time Server Telemetry & Observability Pipeline
-
+Microsoft Fabric Real-Time Server Telemetry & Observability Pipeline
 An enterprise-grade, real-time telemetry ingestion and automated alerting pipeline built entirely within the **Microsoft Fabric** ecosystem. This project demonstrates end-to-end streaming data architecture, Kusto Query Language (KQL) analytics, and automated threshold-based alerting.
 
 ## 🚀 Business Value & Objective
