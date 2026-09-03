@@ -26,3 +26,13 @@ ServerTelemetryStream
 | summarize AverageCPU = avg(CpuUtilization), MaxMemory = max(MemoryUsagePercent) by ServerId, bin(Timestamp, 1m)
 | where AverageCPU > 85.0 or MaxMemory > 90.0
 | order by Timestamp desc
+
+## 🛠️ Technology Stack & Skills Demonstrated
+
+* **Data Engineering & Streaming:** Microsoft Fabric, Eventstreams, Real-Time Intelligence
+* **Analytics & Querying:** Kusto Query Language (KQL), Time-Series Aggregations
+* **Automation & Alerting:** Microsoft Data Activator
+* **Architecture Design:** Low-latency telemetry pipelines, automated threshold detection, and scalable cloud monitoring
+
+---
+*Maintained by Antoun Mouawad — Real-Time Telemetry & Microsoft Fabric Specialist.*
